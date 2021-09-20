@@ -22,6 +22,9 @@ class Solution {
             ans.add(move);
             return; 
         }
+        //we need the answer in alphanumeric manner means "d comes before l , r, u" so we need to 
+        //make dfs call in this manner (downward then left thrn right at last upward)
+        
         // downward
         if(i+1<n && vis[i+1][j] == 0 && a[i+1][j] == 1) {
             vis[i][j] = 1; 
