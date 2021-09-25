@@ -1,7 +1,7 @@
 // problem Link -> https://leetcode.com/problems/is-graph-bipartite/
 
 //Algorithm ->> Try to color every node with 2 color if 2 adjcent node color is same then return false
-//and if the full graph colored with 2 color and no two adjacent color are same then return true at end
+//and if the full graph colored with 2 color and no two adjacent node's color are not same then return true at end
     
 
 class Solution {
